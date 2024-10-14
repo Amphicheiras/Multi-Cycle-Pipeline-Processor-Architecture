@@ -10,11 +10,11 @@ The Forward module checks whether the address we want to read is the same as the
 
 ## Instruction Set:
 
-<img src="https://github.com/Amphicheiras/MultiCycle-Processor-Architecture/blob/main/media/INSTRUCTION_SET.png" alt="INSTRUCTION_SET" width="700">
+<img src="https://github.com/Amphicheiras/Multi-Cycle-Processor-Architecture/blob/main/media/INSTRUCTION_SET.png" alt="INSTRUCTION_SET" width="700">
 
 ## Top-Module Schematic (Single-cycle
 
-<img src="https://github.com/Amphicheiras/MultiCycle-Processor-Architecture/blob/main/media/VHDL_TOP_MODULE_SCHEMATIC.png" alt="TOP_MODULE_SCHEMATIC" width="700">
+<img src="https://github.com/Amphicheiras/Multi-Cycle-Processor-Architecture/blob/main/media/VHDL_TOP_MODULE_SCHEMATIC.png" alt="TOP_MODULE_SCHEMATIC" width="700">
 
 ## FSM:
 
@@ -34,7 +34,7 @@ The signals it "generates" are as follows:
 
 Additionally, it controls internal signals like reset and FsmState to manage the flow control of the FSM itself.
 
-<img src="https://github.com/Amphicheiras/MultiCycle-Processor-Architecture/blob/main/media/VHDL_FSM.png" alt="FSM" width="700">
+<img src="https://github.com/Amphicheiras/Multi-Cycle-Processor-Architecture/blob/main/media/VHDL_FSM.png" alt="FSM" width="700">
 
 In the ResetState, the initialization of our system takes place where the PC (Program Counter) is reset to zero. All states transition to the ResetState only if the reset signal is 1. When the reset signal is cleared (reset = 0), the system transitions to the StartState, where, depending on the instruction being read, the appropriate signals are given, and it transitions either to ALUState or FinalState.
 
@@ -44,8 +44,8 @@ For the li/ lui/ b instructions, and when there is no instruction to execute (no
 
 ## Top-Module Schematic (Multi-cycle)
 
-<img src="https://github.com/Amphicheiras/MultiCycle-Processor-Architecture/blob/main/media/VHDL_TOP_MODULE_SCHEMATIC_MULTICYCLE.png" alt="TOP_MODULE_SCHEMATIC_MULTICYCLE" width="700">
+<img src="https://github.com/Amphicheiras/Multi-Cycle-Processor-Architecture/blob/main/media/VHDL_TOP_MODULE_SCHEMATIC_MULTICYCLE.png" alt="TOP_MODULE_SCHEMATIC_MULTICYCLE" width="700">
 
 ## Simulation:
 
-<img src="https://github.com/Amphicheiras/MultiCycle-Processor-Architecture/blob/main/media/VHDL_SIMULATIONS.png" alt="SIMULATIONS" width="700">
+<img src="https://github.com/Amphicheiras/Multi-Cycle-Processor-Architecture/blob/main/media/VHDL_SIMULATIONS.png" alt="SIMULATIONS" width="700">
