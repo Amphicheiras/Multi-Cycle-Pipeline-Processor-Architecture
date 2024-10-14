@@ -1,5 +1,7 @@
 # CHARIS-4 (Chania RISC Instruction Set v.4) Processor Pipeline Architecture in Xilinx ISE
 
+(.vhd files are in src dir)
+
 This project utilizes pipeline registers. For the implementation of this project, we forward the necessary signals from stage to stage for the execution of the instructions li, lw, sw, and add.
 
 The pipelined processor logic involves the propagation of the correct signals on every clock cycle to their respective stages. However, the pipeline method may create hazards in certain cases, so two modules (forward and stall) will be used to address these issues.
