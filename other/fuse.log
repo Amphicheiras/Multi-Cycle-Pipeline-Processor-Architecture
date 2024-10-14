@@ -1,0 +1,67 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/Users/LOR/Desktop/lab5_2019/TestProcessor_isim_beh.exe" -prj "C:/Users/LOR/Desktop/lab5_2019/TestProcessor_beh.prj" "work.TestProcessor" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/LOR/Desktop/lab5_2019/Registerr.vhd" into library work
+Parsing VHDL file "C:/Users/LOR/Desktop/lab5_2019/Mplx.vhd" into library work
+Parsing VHDL file "C:/Users/LOR/Desktop/lab5_2019/Decoder.vhd" into library work
+Parsing VHDL file "C:/Users/LOR/Desktop/lab5_2019/RegFile.vhd" into library work
+Parsing VHDL file "C:/Users/LOR/Desktop/lab5_2019/RAM.vhd" into library work
+Parsing VHDL file "C:/Users/LOR/Desktop/lab5_2019/PC.vhd" into library work
+Parsing VHDL file "C:/Users/LOR/Desktop/lab5_2019/MXPMEM.vhd" into library work
+Parsing VHDL file "C:/Users/LOR/Desktop/lab5_2019/MpxRec.vhd" into library work
+Parsing VHDL file "C:/Users/LOR/Desktop/lab5_2019/MpxRead.vhd" into library work
+Parsing VHDL file "C:/Users/LOR/Desktop/lab5_2019/MpxALU.vhd" into library work
+Parsing VHDL file "C:/Users/LOR/Desktop/lab5_2019/Mpx.vhd" into library work
+Parsing VHDL file "C:/Users/LOR/Desktop/lab5_2019/Incrementor.vhd" into library work
+Parsing VHDL file "C:/Users/LOR/Desktop/lab5_2019/Extender.vhd" into library work
+Parsing VHDL file "C:/Users/LOR/Desktop/lab5_2019/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/LOR/Desktop/lab5_2019/Adder.vhd" into library work
+Parsing VHDL file "C:/Users/LOR/Desktop/lab5_2019/MEMSTAGE.vhd" into library work
+Parsing VHDL file "C:/Users/LOR/Desktop/lab5_2019/IFSTAGE.vhd" into library work
+Parsing VHDL file "C:/Users/LOR/Desktop/lab5_2019/EXSTAGE.vhd" into library work
+Parsing VHDL file "C:/Users/LOR/Desktop/lab5_2019/DECSTAGE.vhd" into library work
+Parsing VHDL file "C:/Users/LOR/Desktop/lab5_2019/StateFunction.vhd" into library work
+Parsing VHDL file "C:/Users/LOR/Desktop/lab5_2019/Control.vhd" into library work
+Parsing VHDL file "C:/Users/LOR/Desktop/lab5_2019/Processor.vhd" into library work
+Parsing VHDL file "C:/Users/LOR/Desktop/lab5_2019/TestProcessor.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1196 - "C:/Users/LOR/Desktop/lab5_2019/RAM.vhd" Line 57: Readline called past the end of file ramfile
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity StateFunction [statefunction_default]
+Compiling package std_logic_arith
+Compiling package numeric_std
+Compiling package std_logic_signed
+Compiling architecture behavioral of entity Decoder [decoder_default]
+Compiling architecture behavioral of entity Registerr [registerr_default]
+Compiling architecture behavioral of entity Mplx [mplx_default]
+Compiling architecture behavioral of entity RegFile [regfile_default]
+Compiling architecture behavioral of entity Extender [extender_default]
+Compiling architecture behavioral of entity MpxRec [mpxrec_default]
+Compiling architecture behavioral of entity MpxRead [mpxread_default]
+Compiling architecture behavioral of entity DECSTAGE [decstage_default]
+Compiling architecture behavioral of entity PC [pc_default]
+Compiling architecture behavioral of entity Incrementor [incrementor_default]
+Compiling architecture behavioral of entity Adder [adder_default]
+Compiling architecture behavioral of entity Mpx [mpx_default]
+Compiling architecture behavioral of entity IFSTAGE [ifstage_default]
+Compiling architecture behavioral of entity MpxALU [mpxalu_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity EXSTAGE [exstage_default]
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture syn of entity RAM [ram_default]
+Compiling architecture behavioral of entity MXPMEM [mxpmem_default]
+Compiling architecture behavioral of entity MEMSTAGE [memstage_default]
+Compiling architecture behavioral of entity Control [control_default]
+Compiling architecture behavioral of entity Processor [processor_default]
+Compiling architecture behavior of entity testprocessor
+Time Resolution for simulation is 1ps.
+Compiled 53 VHDL Units
+Built simulation executable C:/Users/LOR/Desktop/lab5_2019/TestProcessor_isim_beh.exe
+Fuse Memory Usage: 45468 KB
+Fuse CPU Usage: 732 ms
