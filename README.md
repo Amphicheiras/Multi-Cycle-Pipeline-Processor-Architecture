@@ -12,7 +12,7 @@ The Forward module checks whether the address we want to read is the same as the
 
 <img src="https://github.com/Amphicheiras/Multi-Cycle-Pipeline-Processor-Architecture/blob/main/media/INSTRUCTION_SET.png" alt="INSTRUCTION_SET" width="700">
 
-## Top-Module Schematic (Single-cycle
+## Top-Module Schematic (Single-cycle)
 
 <img src="https://github.com/Amphicheiras/Multi-Cycle-Pipeline-Processor-Architecture/blob/main/media/VHDL_TOP_MODULE_SCHEMATIC.png" alt="TOP_MODULE_SCHEMATIC" width="700">
 
