@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -o "C:/Users/LOR/Desktop/lab5_2019/TestProcessor_isim_beh.exe" -prj "C:/Users/LOR/Desktop/lab5_2019/TestProcessor_beh.prj" "work.TestProcessor" 
